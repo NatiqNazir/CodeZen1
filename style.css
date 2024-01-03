@@ -1,0 +1,129 @@
+.container {
+  background-image: url(./images/Document.svg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* https://media.giphy.com/media/GHzucmItVLOuIZYYhR/giphy.gif */
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.todo {
+  background: rgba(80, 170, 150, 0.6);
+  border-radius: 20px;
+  max-width: 420px;
+  min-width:310px;
+  backdrop-filter: blur(5px);
+  padding: 35px;
+  max-height: 350px;
+}
+
+h2 {
+
+  color: white;
+  padding-bottom: 13px;
+}
+
+.inputvalue {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  background: #fff;
+
+}
+
+#listchild {
+  overflow-y: auto;
+  max-height: 160px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 7px;
+  background: #fff;
+}
+
+#key {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  border-radius: 40px;
+  background: orange;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn22 {
+  background: transparent;
+  padding: 2px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.toaster-ui-lib::after {
+  background: #fff !important;
+}
+
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #397524 #DFE9EB;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 2px;
+  width: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 16px;
+  background-color: #0d0d0d;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #000000;
+}
